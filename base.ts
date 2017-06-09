@@ -4,7 +4,11 @@ $hash @_@a = ##
 
 @user flix
 @type admin
-@access full
+@access reg
+
+if user.run(base.ts) then{
+  prompts.popup("Are you sure you want to allow 'Terminal' to have access to your computer?", f10) = prompts.popup(live)
+  prompts.popup(live.answerMe = true/false)
 
 @base = base.ts
 @main = main.ts
